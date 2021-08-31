@@ -46,7 +46,7 @@ sudo apt install lib libusb-dev
 
 ``` bash 
 git clone https://github.com/kruegerrobotics/libthetacontrol.git
-cd libptp2
+cd libthetacontrol
 mkdir build
 cd build
 cmake ../
