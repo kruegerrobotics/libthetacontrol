@@ -17,3 +17,7 @@ target_link_libraries(switchToLivestream thetacontrol)
 
 add_executable(readBatteryRaw src/examples/readbatteryraw.cpp)
 target_link_libraries(readBatteryRaw thetacontrol)
+
+#installation (only lib)
+install(FILES src/thetacontrol.hpp DESTINATION include)
+install(TARGETS thetacontrol DESTINATION lib)
