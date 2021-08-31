@@ -19,5 +19,7 @@ add_executable(readBatteryRaw src/examples/readbatteryraw.cpp)
 target_link_libraries(readBatteryRaw thetacontrol)
 
 #installation (only lib)
+#todo only one header should suffice --> only thetacontrol.hpp
 install(FILES src/thetacontrol.hpp DESTINATION include)
+install(FILES src/ptp-helpers.hpp DESTINATION include)
 install(TARGETS thetacontrol DESTINATION lib)
