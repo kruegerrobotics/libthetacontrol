@@ -16,7 +16,7 @@ Big parts of the code, especially in the *ptp_helpers* are directly taken from l
 
 ### prerequisites
 
-### libptp (modified)
+#### libptp (modified)
 
 As explained this library relies heavily on [libptp2](http://libptp.sourceforge.net/) but the original was not exposing all functions and I had some problems using the original headers. Thus we use currently this fork of libptp2 to avoid this issues. More information is in the repo of the fork but defentely ideal would be the use of the original.
 
